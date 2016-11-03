@@ -1,0 +1,3 @@
+-Modified the Docker-compose file to map a "files" folder to store the xml documents
+-Modified the BURP output to remove all of the garbage at the top (<!DOCTYPE issues [ -> ]>)      Basically, you just want the xml declaration at the top and then start with the issues tag
+-Dump in the modified logstash.conf file
